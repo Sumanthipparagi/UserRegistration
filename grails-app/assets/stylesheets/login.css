@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100px;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(https://www.bing.com/images/search?q=images&FORM=IQFRBA&id=D05A5411EA64B4C5CC975A318765E47269FE94D9);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 45%;
+    align-items: center;
+}
+
+.form-box{
+    width: 380%;
+    max-width: 450px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+
+}
+
+.form-box h1{
+    margin-left: 0px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+
+}
+
+.form-box h1::after{
+    content: '';
+    width: 40px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px -100px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-family: 'poppins', sans-serif;
+}
+
+input{
+    width: 150px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.btn-field button{
+    font-size: 16px;
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 50px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group{
+    height: 420px;
+}
+
+p{
+    margin-top: 40px;
+}
+option{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
